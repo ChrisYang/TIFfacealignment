@@ -1,0 +1,309 @@
+The system is: Darwin - 14.5.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/2.8.12.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/2.8.12.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1382843554/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1382843554.dir/build.make CMakeFiles/cmTryCompileExec1382843554.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1382843554.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1382843554.dir/testCCompiler.c.o   -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1382843554
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1382843554.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1382843554.dir/testCCompiler.c.o  -o cmTryCompileExec1382843554  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2007970743/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2007970743.dir/build.make CMakeFiles/cmTryCompileExec2007970743.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec2007970743
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2007970743.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2007970743   
+Apple LLVM version 7.0.0 (clang-700.1.76)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec2007970743 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-253.6
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2007970743/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2007970743.dir/build.make CMakeFiles/cmTryCompileExec2007970743.dir/build]
+  ignore line: ["/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec2007970743]
+  ignore line: ["/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2007970743.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2007970743   ]
+  ignore line: [Apple LLVM version 7.0.0 (clang-700.1.76)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec2007970743 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2007970743] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2007970743.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3738079260/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3738079260.dir/build.make CMakeFiles/cmTryCompileExec3738079260.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3738079260.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3738079260.dir/testCXXCompiler.cxx.o -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3738079260
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3738079260.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3738079260.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3738079260  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec363793993/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec363793993.dir/build.make CMakeFiles/cmTryCompileExec363793993.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec363793993
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec363793993.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec363793993   
+Apple LLVM version 7.0.0 (clang-700.1.76)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec363793993 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-253.6
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec363793993/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec363793993.dir/build.make CMakeFiles/cmTryCompileExec363793993.dir/build]
+  ignore line: ["/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec363793993]
+  ignore line: ["/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec363793993.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec363793993   ]
+  ignore line: [Apple LLVM version 7.0.0 (clang-700.1.76)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec363793993 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec363793993] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec363793993.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3146582420/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3146582420.dir/build.make CMakeFiles/cmTryCompileExec3146582420.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3146582420.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct -fPIE   -o CMakeFiles/cmTryCompileExec3146582420.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec3146582420
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3146582420.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3146582420.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3146582420  -framework libpng 
+
+
+Determining if the function jpeg_read_header exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2993077722/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2993077722.dir/build.make CMakeFiles/cmTryCompileExec2993077722.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2993077722.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header -fPIE   -o CMakeFiles/cmTryCompileExec2993077722.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec2993077722
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2993077722.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2993077722.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2993077722  /usr/local/lib/libjpeg.dylib 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4081999069/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4081999069.dir/build.make CMakeFiles/cmTryCompileExec4081999069.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4081999069.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec4081999069.dir/CheckIncludeFile.c.o   -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4081999069
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4081999069.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4081999069.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4081999069  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1740021979/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1740021979.dir/build.make CMakeFiles/cmTryCompileExec1740021979.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1740021979.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec1740021979.dir/CheckIncludeFile.c.o   -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1740021979
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1740021979.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1740021979.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1740021979  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec554955281/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec554955281.dir/build.make CMakeFiles/cmTryCompileExec554955281.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec554955281.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec554955281.dir/CheckIncludeFile.c.o   -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec554955281
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec554955281.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec554955281.dir/CheckIncludeFile.c.o  -o cmTryCompileExec554955281  
+
+
+Determining size of void* passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1522778018/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1522778018.dir/build.make CMakeFiles/cmTryCompileExec1522778018.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1522778018.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec1522778018.dir/SIZE_OF_VOID_PTR.c.o   -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTryCompileExec1522778018
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1522778018.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1522778018.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec1522778018  /usr/local/lib/libjpeg.dylib 
+
+
+Determining if the function cblas_ddot exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3034820229/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3034820229.dir/build.make CMakeFiles/cmTryCompileExec3034820229.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3034820229.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -fPIE   -o CMakeFiles/cmTryCompileExec3034820229.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec3034820229
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3034820229.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3034820229.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3034820229  /usr/lib/libcblas.dylib 
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2699049067/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2699049067.dir/build.make CMakeFiles/cmTryCompileExec2699049067.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2699049067.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec2699049067.dir/TestForSTDNamespace.cxx.o -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/TestForSTDNamespace.cxx"
+Linking CXX executable cmTryCompileExec2699049067
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2699049067.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2699049067.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec2699049067  
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3871454124/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3871454124.dir/build.make CMakeFiles/cmTryCompileExec3871454124.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3871454124.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec3871454124.dir/CheckIncludeFile.cxx.o -c /Users/hy/Desktop/desk/CoolFace/dlib-18.16/python_examples/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3871454124
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3871454124.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3871454124.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3871454124  
+
+
