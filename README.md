@@ -5,7 +5,7 @@ This code is used for human and sheep face alignment using our proposed Triplet-
 
 The work was mainly done when Renqiao Zhang was an intern working with me at Rainbow Group, Computer Laboratory, University of Cambridge. The sheep data were collected by him either from Internet or from Dr. Krista McLennan at Animal Welfare and Anthrozoology at University of Cambridge. If you use the code or data please cite the above paper. 
 
-To run to code. Currently tested on Mac OS. 
+To run to code. (Currently tested on Mac OS. If you are using OpenCV3.0 or above please change the library names.) 
 
 * Specify the opencv and boost path in Makefile 
 * $ make
