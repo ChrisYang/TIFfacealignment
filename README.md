@@ -1,9 +1,9 @@
 # TIFfacealignment
 This code is used for human and sheep face alignment using our proposed Triplet-Interpolated-Feature method. 
 
-[Heng Yang*](https://sites.google.com/site/yanghengcv/home), Renqiao Zhang*, Peter Robinson, ["Human and Sheep Landmarks Localisation by Triplet-Interpolated Features"](http://arxiv.org/pdf/1509.04954.pdf), WACV2016 (*equal contribution)
+[Heng Yang](https://sites.google.com/site/yanghengcv/home), Renqiao Zhang*, Peter Robinson, ["Human and Sheep Landmarks Localisation by Triplet-Interpolated Features"](http://arxiv.org/pdf/1509.04954.pdf), WACV2016 (First two authors made equal contribution.)
 
-The work was mainly done when Renqiao Zhang was an intern working with me at Rainbow Group, Computer Laboratory, University of Cambridge. The sheep data were collected by him either from Internet or from Dr. Krista McLennan at Animal Welfare and Anthrozoology at University of Cambridge. If you use the code or data please cite our above paper. 
+The work was mainly done when Renqiao Zhang was an intern working with me at Rainbow Group, Computer Laboratory, University of Cambridge. The sheep data were collected by him either from Internet or from Dr. Krista McLennan at Animal Welfare and Anthrozoology at University of Cambridge. If you use the code or data please cite the above paper. 
 
 To run to code. 
 
