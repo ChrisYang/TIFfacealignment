@@ -99,7 +99,7 @@ int main(int argc, char** argv)
             std::cout << "FPS: " << 1./elapsed_secs << std::endl;
             for (unsigned int k = 0; k < shape.num_parts(); k++){
                 out << shape.part(k).x() << " " << shape.part(k).y()  << " ";
-                cv::circle(frame, cv::Point_<int>(shape.part(k).x(),shape.part(k).y()),2, cv::Scalar(0, 0, 255, 0),3);
+                cv::circle(frame, cv::Point_<int>(shape.part(k).x(),shape.part(k).y()),3, cv::Scalar(0, 0, 255, 0),3);
             }
             cv::rectangle(frame,rects[i],cv::Scalar(128, 128, 0, 0),2);
             out << std::endl;

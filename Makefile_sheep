@@ -13,9 +13,9 @@ LIBDIRS = -L$(OPENCV_PREFIX)/lib \
 	-L/opt/X11/lib
 CC=clang++
 CFLAGS= -c -Wall -O3
-SOURCES= ./dlib-18.16/dlib/all/source.cpp facealignment.cpp 
+SOURCES= ./dlib-18.16/dlib/all/source.cpp sheepface.cpp 
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=TIF
+EXECUTABLE=TIF_sheep
 
 all: $(SOURCES) $(EXECUTABLE)
 clean: 
