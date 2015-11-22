@@ -1,0 +1,28 @@
+
+OPENCV_PREFIX = /usr/local
+BOOST_PREFIX= /usr/local
+INCLUDES = -I$(OPENCV_PREFIX)/include/opencv2 \
+           -I$(OPENCV_PREFIX)/include/opencv \
+           -I$(BOOST_PREFIX)/include\
+	   -I./dlib-18.16
+LIBS = -lopencv_features2d -lopencv_ml -lopencv_highgui -lopencv_imgproc -lopencv_objdetect -lopencv_core -lopencv_calib3d \
+       -lboost_system -lboost_thread-mt -lboost_serialization -lboost_filesystem -lpthread -lX11
+LIBDIRS = -L$(OPENCV_PREFIX)/lib \
+          -L$(BOOST_PREFIX)/lib \
+          -L/usr/lib \
+          -L/opt/X11/lib
+CC=clang++
+CFLAGS= -c -Wall -O3 -msse4.2
+SOURCES= ./dlib-18.16/dlib/all/source.cpp humanface.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=TIF_human
+
+all: $(SOURCES) $(EXECUTABLE)
+clean: 
+	rm -f *.o
+    
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(OBJECTS) $(LIBDIRS) $(LIBS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $(INCLUDES) $< -o $@
